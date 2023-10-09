@@ -1,1 +1,31 @@
-<p>cadastro-form works!</p>
+<div class="cadastro-form__container">
+
+  <form class="form__container" (ngSubmit)="onSubmit()">
+    <legend class="form-title">Cadastre o seu Produto</legend>
+    <div>
+      <label for="nomeProduto">Nome do Produto:</label>
+      <input type="text" id="nomeProduto" name="nomeProduto" [(ngModel)]="produto.nome" required>
+    </div>
+
+    <div>
+      <label for="descricaoProduto">Descrição do Produto:</label>
+      <textarea id="descricaoProduto" name="descricaoProduto" [(ngModel)]="produto.descricao" required></textarea>
+    </div>
+
+    <div>
+      <label for="valorProduto">Valor do Produto:</label>
+      <input type="text" id="valorProduto" name="valorProduto" [(ngModel)]="produto.valor" required>
+    </div>
+
+    <div>
+      <label for="disponivelVenda">Disponível para Venda:</label>
+      <select id="disponivelVenda" name="disponivelVenda" [(ngModel)]="produto.disponivel" required>
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+      </select>
+    </div>
+
+    <button class="form-button" type="submit">Enviar</button>
+  </form>
+
+</div>

@@ -1,0 +1,62 @@
+@media screen and (min-width:1500px) {
+  .cadastro-form__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .title__container {
+    font-size: 2rem;
+  }
+  .form__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem;
+    border-radius: 1rem;
+    background-color: wheat;
+
+    gap: 3rem;
+}
+
+  .form-title{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .form__container > div {
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+     gap: 1rem;
+  }
+
+  .form__container > div > label {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .form__container > div > input, .form__container > div > textarea, .form__container > div > select {
+    border-radius: 1rem;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: white;
+  }
+
+  .form-button {
+    border: none;
+    border-radius: 1rem;
+    background-color: cornflowerblue;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+  }
+}
