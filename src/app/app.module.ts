@@ -3,14 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CasdastroModule } from './pages/casdastro/casdastro.module';
+import { ListagemModule } from './pages/listagem/listagem.module';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CasdastroModule,
+    ListagemModule
   ],
   providers: [],
   bootstrap: [AppComponent]
