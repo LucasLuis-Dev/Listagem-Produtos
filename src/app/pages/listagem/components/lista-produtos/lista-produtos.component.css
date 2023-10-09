@@ -1,0 +1,37 @@
+@media screen and (min-width: 1500px) {
+  .lista-produtos__container {
+    display: flex;
+    padding: 2% 0;
+  }
+
+  .lista__container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .produto__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    background-color: wheat;
+    border-radius: 1rem;
+    padding: 1.5rem;
+  }
+
+  .produto-informacoes__container > h2 {
+    font-size: 2rem;
+  }
+
+  .produto-informacoes__container > p {
+    font-size: 1.6rem;
+  }
+
+  .produto-valor__container > h3 {
+    font-size: 2rem;
+  }
+
+}

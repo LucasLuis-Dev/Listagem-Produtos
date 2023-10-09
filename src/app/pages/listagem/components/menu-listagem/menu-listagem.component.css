@@ -1,0 +1,23 @@
+@media screen and (min-width: 1500px) {
+  .menu-listagem__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+    border-bottom: 1px solid black;
+  }
+
+  .menu-listagem-title__container > h1 {
+    font-size: 3.5rem;
+  }
+
+  .menu-listagem-button__container > a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1.5rem 2rem;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 0.5rem;
+  }
+}
